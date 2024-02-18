@@ -1,0 +1,929 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 450px) {
+  .team__content .team__members {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: 330px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  :root {
+    /* Font Size */
+    --fs-1: 47px;
+    --fs-2: 62px;
+    --fs-3: 34px;
+    --fs-4: 26px;
+    --fs-5: 14px;
+    --fs-6: 12px;
+
+    /* Section Space */
+    --section-padding: 60px;
+  }
+
+  body {
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  section {
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .home {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .home__bottom {
+    gap: 0;
+  }
+
+  .home__bottom-up {
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .home__bottom-up .home__bottom-left {
+    position: absolute;
+    right: -40px;
+    top: -3.8em;
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+
+  .home__bottom-up .home__bottom-up-heading {
+    width: 100%;
+    line-height: 47px;
+  }
+
+  .banner-title-desktop {
+    display: none;
+  }
+
+  .banner-title-mobile {
+    display: block;
+  }
+
+  .home__bottom-left .btn-area {
+    width: 183px;
+    text-align: right;
+    display: flex;
+  }
+
+  .home__bottom-up .home__bottom-left .btn-animation {
+    margin-right: 2rem;
+  }
+
+  .home__bottom-up .home__bottom-left .home__bottom-left-content {
+    font-size: var(--fs-5);
+    opacity: 0.3;
+    line-height: 16px;
+    width: 351px;
+    font-family: var(--ff-tthoves-regular);
+    margin-top: 17px;
+  }
+
+  .home__bottom-down {
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .home__bottom-down .boxes {
+    width: 100%;
+  }
+
+  .home__bottom-down .socials {
+    width: 60%;
+    gap: 20px;
+  }
+
+  /* ----------------- Services Section Start ------------------ */
+
+  .service-section {
+    padding-top: 7rem;
+  }
+
+  .service__content .service__content-heading h3 {
+    width: 90%;
+    line-height: 39px;
+    font-size: 34px;
+  }
+
+  .service__content .service__content-heading p {
+    font-size: 12px;
+    width: 90%;
+  }
+
+  /* -------------------- Service List ---------------- */
+
+  .services {
+    padding-top: 1rem;
+  }
+
+  /* ----------------------- Cover Image Start ----------------------------- */
+
+  .cover__image {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+
+  .cover__image-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 350px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+
+  .cover__image-img img {
+    transform: scale(2);
+  }
+
+  /* ----------------------- Mission Section Start ----------------------------- */
+  .mission {
+    padding-top: 0px;
+  }
+
+  .mission__content-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .msn-cntn-tow {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .msn-cntn-tow h6 {
+    text-align: right;
+  }
+
+  .mission__content-left {
+    width: 95%;
+  }
+
+  .mission__content-left img {
+    width: 290px;
+    height: auto;
+  }
+
+  .mission__content-right {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .mission__content-article {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .mission__content-article h6 {
+    width: 70%;
+  }
+
+  /* ----------------------- Team Section Start ----------------------------- */
+  .team__section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--white);
+  }
+
+  .team__heading h1 {
+    width: 100%;
+    font-size: 54px;
+    font-family: var(--ff-tthoves-medium);
+  }
+  
+
+  .team__section-part {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .clients__content .clinets__content-heading h3 {
+    font-size: 34px;
+  }
+
+  .clients__content .clinets__content-heading p {
+    font-size: 14px;
+  }
+
+  .team__content .team__members {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: 400px;
+  }
+
+  .team__members img {
+    filter: grayscale(0%) brightness(100%);
+  }
+
+  .team_members-more {
+    width: 96%;
+  }
+
+  .team_members-more h3 {
+    line-height: 43px;
+  }
+
+  /* client logo stat */
+  .clients__content {
+    padding-top: 6rem;
+  }
+
+  .clients__content .clinets__content-heading p {
+    width: 90%;
+    text-align: center;
+  }
+
+  .clients__brands .brand img {
+    width: 100%;
+    filter: unset;
+  }
+
+
+
+  /* ----------------------- Contact Section Start ----------------------------- */
+  .contact__Section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: var(--white);
+  }
+
+  .contact__info {
+    padding-top: 3rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .contact__info-name,
+  .contact__info-email,
+  .contact-details {
+    margin-bottom: 0px;
+  }
+
+  .contact__section-content label {
+    font-family: var(--ff-tthoves-regular);
+    font-size: 26px;
+  }
+
+  .contact__Section input {
+    width: 100%;
+    margin: 2px 0px 30px 0px;
+    border-bottom: 3px solid var(--secondery-color);
+    
+    padding: 10px 0;
+    outline: none;
+  }
+
+  .contact__Section input::placeholder {
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .contact__Section .hey-desktop {
+    display: none;
+  }
+
+  .contact__Section .hey-mobile {
+    display: block;
+    font-size: 34px;
+  }
+
+  .contact__info-name h4 {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    justify-content: flex-start;
+  }
+
+  .footer__content {
+    height: 370px;
+  }
+
+  .footer__short-links {
+    display: flex;
+    align-items: self-end;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 2rem;
+  }
+
+  .footer__short-links .short-link {
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+    gap: 24px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-width: 601px) and (max-width: 767px) {
+  :root {
+    /* Font Size */
+    --fs-1: 45px;
+    --fs-2: 32px;
+    --fs-3: 28px;
+    --fs-4: 22px;
+    --fs-5: 12px;
+    --fs-6: 13px;
+
+    /* Section Space */
+    --section-padding: 60px;
+  }
+
+  .header .logo {
+    padding-left: 0px;
+  }
+
+  .home {
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  .home__bottom-up {
+    align-items: start;
+    justify-content: space-between;
+    position: relative;
+  }
+
+  .home__bottom-up .home__bottom-left {
+    position: absolute;
+    left: 120px;
+    top: -3.2rem;
+    margin-top: 6rem;
+    flex-direction: column;
+    gap: 20px;
+    width: 80%;
+  }
+
+  .home__bottom-up .home__bottom-up-heading {
+    width: 100%;
+    line-height: 56px;
+  }
+
+  .home__bottom-up .home__bottom-left .btn-animation {
+    margin-right: 2rem;
+  }
+
+  .home__bottom-up .home__bottom-left .home__bottom-left-content {
+    width: 100%;
+    position: absolute;
+    left: -7rem;
+    bottom: -7rem;
+  }
+
+  .home__bottom-down {
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+    margin-top: 5rem;
+  }
+
+  .home__bottom-down .boxes {
+    width: 100%;
+  }
+
+  .home__bottom-down .socials {
+    width: 40%;
+    gap: 20px;
+  }
+
+  /* ----------------- Services Section Start ------------------ */
+
+  .service-section {
+    padding-top: 7rem;
+  }
+
+  .service__content .service__content-heading h3 {
+    width: 90%;
+    line-height: 39px;
+  }
+
+  .service__content .service__content-heading p {
+    width: 80%;
+  }
+
+  /* -------------------- Service List ---------------- */
+
+  .services {
+    padding-top: 1rem;
+  }
+
+  /* ----------------------- Cover Image Start ----------------------------- */
+
+  .cover__image {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+
+  .cover__image-img img {
+    height: 272px;
+  }
+
+  /* ----------------------- Mission Section Start ----------------------------- */
+  .mission {
+    padding-top: 0px;
+  }
+
+  .mission__content-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .mission__content-left {
+    width: 95%;
+  }
+
+  .mission__content-left img {
+    width: 290px;
+    height: auto;
+  }
+
+  .mission__content-right {
+    width: 100%;
+    gap: 24px;
+  }
+
+  .mission__content-article {
+    gap: 20px;
+  }
+
+  .mission__content-article h6 {
+    width: 80%;
+  }
+
+  /* ----------------------- Team Section Start ----------------------------- */
+  .team__section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: var(--white);
+  }
+
+
+  .team__section-part {
+    flex-direction: column;
+    align-items: start;
+    gap: 30px;
+    width: 100%;
+  }
+
+  .team__content .team__members {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    max-width: 480px;
+  }
+
+  .team_members-more {
+    width: 96%;
+  }
+
+
+
+  .team_members-more h3 {
+    line-height: 43px;
+  }
+
+  /* services start  */
+  .clients__content {
+    padding-top: 6rem;
+  }
+
+  .clients__content .clinets__content-heading p {
+    width: 90%;
+    text-align: center;
+  }
+
+  /* ----------------------- Contact Section Start ----------------------------- */
+  .contact__Section {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    background-color: var(--white);
+  }
+
+  .contact__info {
+    padding-top: 3rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .contact__info-name,
+  .contact__info-email,
+  .contact-details {
+    margin-bottom: 0px;
+  }
+
+  .contact__section-content label {
+    font-family: var(--ff-tthoves-regular);
+    font-size: 28px;
+    margin-top: 0px;
+  }
+
+  .contact__Section input {
+    width: 100%;
+    margin: 2px 0px 30px 0px;
+    border-bottom: 3px solid var(--secondery-color);
+    padding: 10px 0;
+    outline: none;
+  }
+
+  .contact__Section .hey-desktop {
+    display: none;
+  }
+
+  .contact__Section .hey-mobile {
+    display: block;
+    font-size: 34px;
+  }
+
+  .footer__content {
+    height: 370px;
+  }
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  :root {
+    /* Font Size */
+    --fs-1: 50px;
+    --fs-2: 40px;
+    --fs-3: 37px;
+    --fs-4: 28px;
+    --fs-5: 12px;
+    --fs-6: 13px;
+
+    /* Section Space */
+    --section-padding: 60px;
+  }
+
+
+  .home__bottom-up .home__bottom-left {
+    gap: 20px;
+    width: 35%;
+  }
+
+  .home__bottom-up .home__bottom-up-heading {
+    width: 65%;
+    line-height: 56px;
+  }
+
+  .home__bottom-up .home__bottom-left .btn-animation {
+    margin-right: 2rem;
+  }
+
+  .home__bottom-down {
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+  }
+
+  .home__bottom-down .boxes {
+    width: 100%;
+  }
+
+  .home__bottom-down .socials {
+    width: 25%;
+    gap: 20px;
+  }
+
+  /* ----------------- Services Section Start ------------------ */
+
+  .service-section {
+    padding-top: 7rem;
+  }
+
+  .service__content .service__content-heading h3 {
+    width: 70%;
+    line-height: 39px;
+  }
+
+  .service__content .service__content-heading p {
+    width: 60%;
+  }
+
+  /* -------------------- Service List ---------------- */
+
+  .services {
+    padding-top: 1rem;
+  }
+
+  /* ----------------------- Cover Image Start ----------------------------- */
+
+  .cover__image {
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+  }
+
+  /* ----------------------- Mission Section Start ----------------------------- */
+  .mission__content-container {
+    gap: 20px;
+  }
+
+  .mission__content-left {
+    width: 35%;
+  }
+
+  .mission__content-left img {
+    width: 280px;
+    height: auto;
+    margin-left: 0rem;
+  }
+
+  .mission__content-right {
+    width: 65%;
+    gap: 24px;
+  }
+
+  .mission__content-article {
+    gap: 20px;
+  }
+
+  .mission__content-article h6 {
+    width: 100%;
+  }
+
+  /* ----------------------- Team Section Start ----------------------------- */
+
+  .team_members-more {
+    width: 75%;
+    gap: 1px;
+  }
+
+  .team_members-more h3 {
+    line-height: 43px;
+  }
+
+
+  /* ----------------------- Contact Section Start ----------------------------- */
+  .contact__info-name,
+  .contact__info-email,
+  .contact-details {
+    margin-bottom: 0px;
+  }
+
+
+  .contact__Section input {
+    width: 100%;
+    margin: 0px 0px 40px 0px;
+    margin-top: 2px;
+    border-bottom: 3px solid var(--secondery-color);
+    padding: 10px 0;
+    outline: none;
+  }
+
+  .contact__info {
+    padding-top: 3rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .footer__content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: end;
+    height: 468px;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 1025px) and (max-width: 1199px) {
+  :root {
+    /* Font Size */
+    --fs-1: 60px;
+    --fs-2: 55px;
+    --fs-3: 44px;
+    --fs-4: 28px;
+    --fs-5: 12px;
+    --fs-6: 13px;
+
+    /* Section Space */
+    --section-padding: 60px;
+  }
+
+  .home__bottom-up .home__bottom-left {
+    gap: 20px;
+    width: 45%;
+  }
+
+  .home__bottom-down {
+    flex-direction: column;
+    align-items: end;
+    width: 100%;
+  }
+
+  .home__bottom-down .boxes {
+    width: 100%;
+  }
+
+  .home__bottom-down .socials {
+    width: 25%;
+    gap: 20px;
+  }
+
+  /* ----------------- Services Section Start ------------------ */
+
+  .service-section {
+    padding-top: 7rem;
+  }
+
+  .service__content .service__content-heading h3 {
+    width: 70%;
+    line-height: 53px;
+  }
+
+  .service__content .service__content-heading p {
+    width: 55%;
+  }
+
+  /* -------------------- Service List ---------------- */
+
+  .services {
+    padding-top: 1rem;
+  }
+
+  /* ----------------------- Cover Image Start ----------------------------- */
+
+  .cover__image {
+    padding-top: 7rem;
+  }
+
+  .cover__image-img img {
+    height: 372px;
+  }
+
+  /* ----------------------- Mission Section Start ----------------------------- */
+  .mission__content-container {
+    gap: 30px;
+  }
+
+  .mission__content-left {
+    width: 45%;
+  }
+
+  .mission__content-left img {
+    width: 352px;
+    height: auto;
+  }
+
+  .mission__content-right {
+    width: 55%;
+    gap: 34px;
+  }
+
+  .mission__content-article {
+    gap: 30px;
+  }
+
+  .mission__content-article h6 {
+    width: 100%;
+  }
+
+  /* ----------------------- Team Section Start ----------------------------- */
+
+  .team_members-more {
+    width: 35%;
+    gap: 1px;
+  }
+
+  .team_members-more h3 {
+    line-height: 43px;
+  }
+
+  /* ----------------------- Contact Section Start ----------------------------- */
+  input {
+    width: 28%;
+  }
+
+
+
+
+
+  /*-----------------------------------*\
+  #CUSTOM CURSOR
+\*-----------------------------------*/
+
+  .cursor {
+    display: none;
+  }
+
+
+
+  /**
+* CUSTOM CURSOR
+*/
+
+  .cursor {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    background-color: var(--white);
+    mix-blend-mode: exclusion;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: transform 0.35s;
+    pointer-events: none;
+    z-index: 1116;
+  }
+
+  .cursor.hovered {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  .cursor.disabled {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+}
+
+@media (min-width:1200px) {
+
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl {
+    max-width: 1366px !important;
+    width: 100% !important;
+    padding: 0px 30px !important;
+  }
+
+
+  .team__content.slide-up.swiper.swiper-initialized.swiper-horizontal.swiper-backface-hidden.slide-up-show {
+    width: 75%;
+  }
+
+
+
+
+
+  /*-----------------------------------*\
+  #CUSTOM CURSOR
+\*-----------------------------------*/
+
+  .cursor {
+    display: none;
+  }
+
+
+
+  /**
+* CUSTOM CURSOR
+*/
+
+  .cursor {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+    background-color: var(--white);
+    mix-blend-mode: exclusion;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0.25);
+    transition: transform 0.35s;
+    pointer-events: none;
+    z-index: 1116;
+  }
+
+  .cursor.hovered {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+
+  .cursor.disabled {
+    transform: translate(-50%, -50%) scale(0);
+  }
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
